@@ -1,0 +1,64 @@
+#intro {
+  background: url('../assets/images/Background_Intro.png') no-repeat center center/contain;
+  padding-top: 7.5rem;
+
+  & header {
+    margin-inline: 11.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #avatar-wrapper {
+    width: 7.625rem;
+    margin-bottom: 3.5rem;
+  }
+
+  #intro-title {
+    margin-bottom: 1.25rem;
+    p {
+      color: var(--gray-500);
+      font: var(--subtitle)
+    }
+
+    h1 {
+      font: var(--title-lg);
+      color: var(--gray-600);
+    }
+  }
+
+  #intro-text {
+    font: var(--text-sm);
+    text-align: left;
+  }
+
+  #technologies {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      height: 2.5rem;
+      background-color: var(--gray-300);
+      padding: 0.5rem 1rem;
+      border-radius: 2rem;
+
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5.8rem;
+  }
+}

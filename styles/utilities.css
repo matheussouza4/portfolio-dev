@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 85.375rem;
+  margin-inline: auto;
+  padding-inline: 10.1875rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-gap {
+  gap: 1.5rem;
+}
+
+text-red {
+  color: var(--red);
+}
+
+text-purple {
+  color: var(--purple);
+}
