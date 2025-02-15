@@ -4,6 +4,19 @@
   margin-inline: auto;
   padding-inline: 10.1875rem;
 }
+.card-info {
+  text-align: left;
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+}
 
 .grid {
   display: grid;
@@ -13,10 +26,10 @@
   gap: 1.5rem;
 }
 
-text-red {
+.text-red {
   color: var(--red);
 }
 
-text-purple {
+.text-purple {
   color: var(--purple);
 }

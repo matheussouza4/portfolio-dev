@@ -32,19 +32,5 @@
       overflow: hidden;
       margin-bottom: 1.25rem;
     }
-
-    .info {
-      text-align: left;
-      h3 {
-        font: var(--title-sm);
-        color: var(--gray-600);
-        margin-bottom: 0.5rem;
-      }
-
-      p {
-        font: var(--text-sm);
-        color: var(--gray-500);
-      }
-    }
   }
 }
