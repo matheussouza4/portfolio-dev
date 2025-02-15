@@ -20,7 +20,11 @@
     margin-bottom: 1.25rem;
     p {
       color: var(--gray-500);
-      font: var(--subtitle)
+      font: var(--subtitle);
+
+      span {
+        color: var(--red)
+      }
     }
 
     h1 {
